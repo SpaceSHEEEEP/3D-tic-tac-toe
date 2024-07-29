@@ -209,7 +209,7 @@ function love.draw()
 
     if gameState == 'menu' then
         love.graphics.setFont(largeFont)
-        love.graphics.printf('Welcome to Pong!', 0, 10, VIRTUAL_WIDTH, 'center')
+        love.graphics.printf('Welcome to 3D Tic Tac Toe!', 0, 10, VIRTUAL_WIDTH, 'center')
         love.graphics.setFont(mediumFont)
         love.graphics.printf("Press 'enter' to play", 0, 500, VIRTUAL_WIDTH, 'center')
     elseif gameState == 'play' then
